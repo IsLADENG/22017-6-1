@@ -1,0 +1,65 @@
+@import url('reset.css');
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@val:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @val;
+}
+html,body,.wranp{
+    .whb(100%,100%,0);
+}
+#box{
+   
+    .whb(100%,100%,0);
+    
+    header{
+        .box(horizontal);
+        .whb(100%,5.5rem,0);
+        border-bottom: 1px solid #ccc;
+        .aa{
+            .whb(5rem,100%,0);
+            text-align: center;
+            line-height: 5rem;
+            font-size: 14px;
+            a{
+                color: red;
+            }
+        }
+        .sec_search{
+            -webkit-box-flex:1;
+            padding-top: 1rem;
+            .input{
+                .whb(95%,3.5rem,0);
+                background: #F5F5F5;
+                border-radius: 8px;
+                margin: 0 auto;
+                line-height: 3.5rem;
+                position: relative;
+                img{
+                    .whb(1.5rem,1.5rem,none);
+                    position: absolute;
+                    top: 1rem;
+                    left: 1rem;
+                }
+                input{
+                    .whb(90%,3.5rem,none);
+                    border: none;
+                    outline: none;
+                    border-radius: 8px;
+                    margin-left: 3rem;
+                    letter-spacing: 0.2rem;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+ 
+    }
+
+        
+        
+
+          
+}

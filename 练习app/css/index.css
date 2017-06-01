@@ -1,0 +1,290 @@
+@import url('reset.css');
+html,
+body,
+.wranp {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+#box {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#box header {
+  width: 100%;
+  height: 4.5rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#box header .h_left {
+  width: 5rem;
+  height: 100%;
+  background: 0;
+  text-align: center;
+  line-height: 4.5rem;
+  font-size: 20px;
+}
+#box header .h_left span {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  display: inline-block;
+  border: 1px solid #999;
+  border-top: none;
+  border-right: none;
+  transform: rotate(45deg);
+  margin-left: 1rem;
+}
+#box header .h_middle {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.5rem;
+  font-size: 20px;
+}
+#box header .h_right {
+  width: 5rem;
+  height: 100%;
+  background: 0;
+}
+#box section {
+  overflow: auto;
+  -webkit-box-flex: 1;
+}
+#box section .x_q {
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+#box section .x_q .x_q1 {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 20rem;
+  background: 0;
+}
+#box section .x_q .x_q1 .nei1 {
+  width: 100%;
+  height: 8rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#box section .x_q .x_q1 .nei1 .n_left {
+  width: 7rem;
+  height: 100%;
+  background: 0;
+}
+#box section .x_q .x_q1 .nei1 .n_left img {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+#box section .x_q .x_q1 .nei1 .n_middle {
+  -webkit-box-flex: 1;
+}
+#box section .x_q .x_q1 .nei1 .n_middle dl {
+  padding-top: 1rem;
+}
+#box section .x_q .x_q1 .nei1 .n_middle dl dt {
+  font-size: 20px;
+}
+#box section .x_q .x_q1 .nei1 .n_middle dl dd {
+  font-size: 14px;
+}
+#box section .x_q .x_q1 .nei1 .n_middle span {
+  margin-top: 1rem;
+  width: 5rem;
+  height: 2rem;
+  background: 0;
+  border: 1px solid #ccc;
+  display: inline-block;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+#box section .x_q .x_q1 .nei1 .n_right {
+  width: 8.5rem;
+  height: 100%;
+  background: 0;
+}
+#box section .x_q .x_q1 .nei1 .n_right .box_k {
+  width: 6.5rem;
+  height: 3rem;
+  background: 0;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  border: 2px solid #cccccc;
+  text-align: center;
+  line-height: 3rem ;
+  border-radius: 0.5rem;
+  color: #cccccc;
+}
+#box section .x_q .x_q1 .p1 {
+  font-size: 16px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#box section .x_q .gen {
+  width: 100%;
+  height: 5rem;
+  background: 0;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+}
+#box section .x_q .gen span {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  display: inline-block;
+  border: 1px solid #999;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+  margin-left: 1rem;
+  margin-bottom: 0.3rem;
+}
+#box section .sec_search {
+  width: 100%;
+  height: 4.5rem;
+  background: #f5f5f5;
+  padding-top: 1rem;
+}
+#box section .sec_search .input {
+  width: 95%;
+  height: 3.5rem;
+  background: white;
+  border-radius: 8px;
+  margin: 0 auto;
+  line-height: 3.5rem;
+  position: relative;
+}
+#box section .sec_search .input img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+#box section .sec_search .input input {
+  width: 90%;
+  height: 3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-left: 3rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.8rem;
+}
+#box section .s_nav {
+  width: 100%;
+  height: 6rem;
+  background: 0;
+  border-bottom: 2px solid #ccc;
+  line-height: 6rem;
+}
+#box section .s_nav .sn_left {
+  margin-left: 1rem;
+  float: left;
+  font-size: 20px;
+  color: #333333;
+}
+#box section .s_nav .sn_right {
+  float: right;
+  margin-right: 1rem ;
+}
+#box section .s_nav .sn_right span {
+  width: 1rem;
+  height: 1rem;
+  background: none;
+  display: inline-block;
+  border: 1px solid #999;
+  border-bottom: none;
+  border-left: none;
+  transform: rotate(45deg);
+  margin-left: 1rem;
+}
+#box section .hua {
+  width: 100%;
+  height: 4rem;
+  background: #ccc;
+  line-height: 4rem;
+  font-size: 18px;
+}
+#box section .hua span {
+  display: inline-block;
+  width: 0.5rem;
+  height: 2rem;
+  background: red;
+  margin: 0 1rem;
+}
+#box section .nei {
+  width: 100%;
+  height: 24.3rem;
+  background: 0;
+  border-bottom: 3px solid #ccc;
+}
+#box section .nei .nei1 {
+  width: 100%;
+  height: 8rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#box section .nei .nei1 .n_left {
+  width: 7rem;
+  height: 100%;
+  background: 0;
+}
+#box section .nei .nei1 .n_left img {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+#box section .nei .nei1 .n_middle {
+  -webkit-box-flex: 1;
+}
+#box section .nei .nei1 .n_middle dl {
+  padding-top: 1rem;
+}
+#box section .nei .nei1 .n_middle dl dt {
+  font-size: 20px;
+}
+#box section .nei .nei1 .n_middle dl dd {
+  font-size: 14px;
+}
+#box section .nei .nei1 .n_right {
+  width: 8.5rem;
+  height: 100%;
+  background: 0;
+}
+#box section .nei .nei1 .n_right .box_k {
+  width: 6.5rem;
+  height: 3rem;
+  background: 0;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  border: 2px solid #cccccc;
+  text-align: center;
+  line-height: 3rem ;
+  border-radius: 0.5rem;
+  color: #cccccc;
+}
+#box footer {
+  width: 100%;
+  height: 4.5rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+#box footer .b1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding-top: 0.8rem ;
+}
